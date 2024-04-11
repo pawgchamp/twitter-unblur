@@ -10,8 +10,8 @@ Instructions for how to remove the "Warning: sensitive content" warnings on Twit
 1. Install the extension [X / Twitter Feature Flags](https://chromewebstore.google.com/detail/x-twitter-feature-flags/phioeneleonlckednejcmajbkmhhiepm)
 2. Open Twitter, press "Features" (below "Profile" and above "More") in the left menu
 3. Using the search box at the top, find the following and **un-check** the boxes to disable:
-    1. `media_visibility_treatments_blurred_media_interstitial_enabled`
-    2. `sensitive_tweet_warnings_enabled`
+    - `media_visibility_treatments_blurred_media_interstitial_enabled`
+    - `sensitive_tweet_warnings_enabled`
 4. Press the Save Changes button at the bottom of the overlay
 5. Refresh
 
@@ -20,11 +20,9 @@ This fixed it for my timeline, replies, and related tweets. To fix the Media tab
 1. Open uBlock Origin's settings page (in Chrome: Extensions button > uBlock Origin > ⚙ icon/"settings")
 2. Select My filters and add the following filter rules:
     ````
-    twitter.com##.r-yfv4eo:style(filter: none !important;)
-    twitter.com##.r-1ffoksr:style(display: none !important;)
+    twitter.com##.r-yfv4eo:style(filter: blur(0px) !important;)
     twitter.com##.r-drfeu3:style(display: none !important;)
-    twitter.com##.r-jwli3a:style(display: none !important;)
-    twitter.com##.r-1cmwbt1:style(display: none !important;)
+    twitter.com##.r-1cmwbt1.r-1777fci:style(display: none !important;)
     ````
 3. Press the Apply changes button at the top. You may need to check "Enable my custom filters" if it's not already
 4. Refresh; you're done! 
