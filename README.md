@@ -27,7 +27,7 @@ This fixed it for my timeline, replies, and related tweets. To fix the Media tab
 3. Press the Apply changes button at the top. You may need to check "Enable my custom filters" if it's not already
 4. Refresh; you're done
 
-> **Optional:** If you'd now like to hide the Filters button from Twitter's menu, you can do that too by adding the following filter in uBlock Origin also:
+> **Optional:** If you'd want to hide the Filters button that's been added by the extension, do that by adding the following filter in uBlock Origin (under the aforementioned):
 > ````
 > twitter.com##.featuresBtnContainer
 > ````
