@@ -26,12 +26,11 @@ This fixed it for my timeline, replies, and related tweets. To fix the Media tab
     ````
 3. Press the Apply changes button at the top. You may need to check "Enable my custom filters" if it's not already
 4. Refresh; you're done
-5.
-6.
-**Optional:** If you'd now like to hide the Filters button from Twitter's menu, you can do that too by adding the following filter in uBlock Origin also:
-````
-twitter.com##.featuresBtnContainer
-````
+
+> **Optional:** If you'd now like to hide the Filters button from Twitter's menu, you can do that too by adding the following filter in uBlock Origin also:
+> ````
+> twitter.com##.featuresBtnContainer
+> ````
 
 ## Alternatives
 - [Twitter用 センシティブ画像大好き君](https://chromewebstore.google.com/detail/twitter%E7%94%A8-%E3%82%BB%E3%83%B3%E3%82%B7%E3%83%86%E3%82%A3%E3%83%96%E7%94%BB%E5%83%8F%E5%A4%A7%E5%A5%BD%E3%81%8D%E5%90%9B/gmmdlghnjobnnkochmhgbmdaoncibakj) - works but doesn't allow videos to autoplay
