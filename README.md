@@ -33,6 +33,6 @@ This fixed it for my timeline, replies, and related tweets. To fix the Media tab
 - [Twitter hide content warning crap](https://greasyfork.org/en/scripts/437359-twitter-hide-content-warning-crap) - didn't work for me but others said it did (and relies on a userscript manager)
 
 ## Notes
-This is what worked for me, I'll keep this GH repo up to date if this stops working and I find a better solution. I don't anticipate Twitter will undo this change so it's up to us to find workarounds; this is just me trying to do my part to hellp.
+This is what worked for me, I'll keep this GH repo up to date if this stops working and I find a better solution. I don't anticipate Twitter will undo this change so it's up to us to find workarounds; this is just me trying to do my part to help.
 
-Original credit for this fix is [here](https://www.reddit.com/r/Twitter/comments/1c0wi1x/workaround_for_sensitive_media/) and [here](https://www.reddit.com/r/Twitter/comments/1c0wi1x/workaround_for_sensitive_media/kz1n8za/). I just reformatted their instructions for easier reading.
+Credit: [Here](https://www.reddit.com/r/Twitter/comments/1c0wi1x/workaround_for_sensitive_media/) for the feature flags, and [here](https://www.reddit.com/r/Twitter/comments/1c0wi1x/workaround_for_sensitive_media/kz1n8za/) for the filter rules. I just took different filter rules that worked for me.
