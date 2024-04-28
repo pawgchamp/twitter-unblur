@@ -21,8 +21,8 @@ This fixed it for my timeline, replies, and related tweets. To fix the Media tab
 2. Select My filters and add the following filter rules:
     ````
     twitter.com##.r-yfv4eo:style(filter: blur(0px) !important;)
-    twitter.com##.r-drfeu3:style(display: none !important;)
-    twitter.com##.r-1cmwbt1.r-1777fci:style(display: none !important;)
+    twitter.com##.r-drfeu3
+    twitter.com##.r-1cmwbt1.r-1777fci
     ````
 3. Press the Apply changes button at the top. You may need to check "Enable my custom filters" if it's not already
 4. Refresh; you're done
@@ -38,6 +38,6 @@ This fixed it for my timeline, replies, and related tweets. To fix the Media tab
 - [Twitter hide content warning crap](https://greasyfork.org/en/scripts/437359-twitter-hide-content-warning-crap) - worked for my timeline but not Media tab
   
 ## Information
-The above is only what I've found to work to work around the issue. I'll keep this up to date if this fix no longer works and/or I find a better solution. I don't anticipate they'll will undo this change, so it's up to us to find workarounds.
+The above is only what I've found to work to work around the issue. I'll keep this up to date if this fix no longer works and/or I find a better solution. I don't anticipate this change will be undone, so it's up to us to find workarounds.
 
 Credit: [Here](https://www.reddit.com/r/Twitter/comments/1c0wi1x/workaround_for_sensitive_media/) for the feature flags, and [here](https://www.reddit.com/r/Twitter/comments/1c0wi1x/workaround_for_sensitive_media/kz1n8za/) for the filter rules. I used different filter rules that worked for me.
